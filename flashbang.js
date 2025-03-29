@@ -5,9 +5,9 @@ document.addEventListener('DOMContentLoaded', function () {
         const urlParams = new URLSearchParams(window.location.search);
 
         // Check if 'f' parameter exists
-        if (urlParams.has('f')) {
+        // if (urlParams.has('f')) {
             flashbang();
-        }
+        // }
     });
 
     function flashbang() {
